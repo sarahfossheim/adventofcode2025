@@ -2,7 +2,14 @@
 
 My solutions for the [Advent of Code 2025](https://adventofcode.com/2025).
 
+## The challenges
+
+- [Day 1: Secret Entrance](https://adventofcode.com/2025/day/1) **
+- [Day 2: Gift Shop](https://adventofcode.com/2025/day/2) **
+
 ---
+
+## Find me on
 
 🖥️ [fossheim.io](https://fossheim.io)
 
