@@ -2,7 +2,10 @@ import csv
 
 with open('input.csv', mode='r', newline='', encoding='utf-8') as file:
   csv_reader = csv.reader(file)
+
+  # What will be the result
   battery_sum = 0
+
   for row in csv_reader:
     # Get an array of characters in the bank
     bank = row[0]
@@ -21,6 +24,8 @@ with open('input.csv', mode='r', newline='', encoding='utf-8') as file:
     battery = largest + largest_2
     battery = int(battery)
 
+    # Add to the sum (result)
     battery_sum += battery
 
+  # Print result
   print('⭐️ Battery sum:', battery_sum)
