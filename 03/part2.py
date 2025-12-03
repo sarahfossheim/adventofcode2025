@@ -25,7 +25,7 @@ with open('input.csv', mode='r', newline='', encoding='utf-8') as file:
     # Set the chosen numbers
     chosen_batteries = []
 
-    while len(chosen_batteries) < 12:
+    while len(chosen_batteries) < sequence_length:
       # Set the start ID to the previous one + 1
       start_id = previous_id + 1
 
