@@ -22,7 +22,7 @@ with open('input.csv', mode='r', newline='', encoding='utf-8') as file:
       if current_roll > 0:
         neighbors = calculations.count_neighbors(roll_grid, row_index, roll_index)
         
-        # If there are more than 4 neighbors, add to counter
+        # If there are less than 4 neighbors, add to counter
         if neighbors < 4:
           counter += 1
 
